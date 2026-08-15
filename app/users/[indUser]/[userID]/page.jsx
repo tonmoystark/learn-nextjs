@@ -1,10 +1,10 @@
 import React from 'react'
 
-const UserID = async ({ params }) => {
+const UserID = async () => {
     
-     const { indUser, userID } = await params
+    //  const { indUser, userID } = await params
   return (
-    <div>User name is { indUser } and ID is { userID }</div>
+    <div>User name is in comment and ID is in comment</div>
   )
 }
 
